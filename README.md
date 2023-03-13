@@ -1,3 +1,7 @@
+# This porect wsa build following the tutorial from the following link
+
+https://www.youtube.com/watch?v=Reny0cTTv24
+
 # Run the following commands to start the project and install the dependencies
 
 npx create-react-app my-app
