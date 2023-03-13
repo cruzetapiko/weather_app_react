@@ -1,3 +1,15 @@
+# Run the following commands to start the project and install the dependencies
+
+npx create-react-app my-app
+npm i react-accessible-accordion
+npm i react-select-async-paginate
+
+#We'll access the following API to get the weather data
+
+https://rapidapi.com/wirefreethought/api/geodb-cities/
+https://openweathermap.org/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
