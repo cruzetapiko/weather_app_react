@@ -2,13 +2,13 @@
 
 https://www.youtube.com/watch?v=Reny0cTTv24
 
-### Run the following commands to start the project and install the dependencies
+### `Run the following commands to start the project and install the dependencies`
 
 npx create-react-app my-app
 npm i react-accessible-accordion
 npm i react-select-async-paginate
 
-# We'll access the following API to get the weather data
+# `We'll access the following API to get the weather data`
 
 https://rapidapi.com/wirefreethought/api/geodb-cities/
 https://openweathermap.org/
