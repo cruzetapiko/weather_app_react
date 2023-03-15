@@ -8,7 +8,8 @@
     padding: 0px 20px 20px 20px;   
 }
 
-.top {
+.top,
+.bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,9 +17,52 @@
 }
 
 .city {
-
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
 }
 
 .description {
-    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;  
 }
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.temperature {
+    font-weight: 600;
+    font-size: 70px;
+    width: auto;
+    letter-spacing: -5px;
+    margin: 10px 0;
+}
+
+.details {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.parameters-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parameter-label {
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.parameter-value {
+    text-align: right;
+    font-weight: 600;
+    font-size: 12px;
+}   
