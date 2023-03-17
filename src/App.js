@@ -1,20 +1,21 @@
 import './App.css';
+import React from "react";
 import Search from './Components/search/Search';
 import CurrentWeather from './Components/current-weather/Current-Weather';
 
 
-function App() {
+const App = () => {
 
-  const handleOnSearchChange = (searchData) => {
-    console.log(searchData);
+  const handleOnSearchChange = (value) => {
+    console.log(value);
   }
 
   return (
-    <div className="container">
-      <Search  onSearchChange={ handleOnSearchChange } />
+    <div className='container' >
+      <Search  onSearchChange={handleOnSearchChange} />
       <CurrentWeather />
     </div>
-  );
+  )
 }
 
 export default App;
