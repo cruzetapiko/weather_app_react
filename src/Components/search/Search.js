@@ -23,8 +23,8 @@ const Search = ({ onSearchChange }) => {
         return {
           options: response.data.data.map((item) => {
             return {
-              label: `${item.name}, ${item.countryCode}}`,
-              value: `${item.latitude}, ${item.longitude}}`
+              label: `${item.name}, ${item.countryCode}`,
+              value: `${item.latitude} ${item.longitude}`
             }
           })
         };

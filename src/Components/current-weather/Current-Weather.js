@@ -1,5 +1,5 @@
 import './current-weather.css'
-const CurrentWeather = () => {
+const CurrentWeather = ({data}) => {
   return (
     <div className="weather">
       <div className="top">
