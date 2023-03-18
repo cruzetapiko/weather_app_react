@@ -11,7 +11,7 @@ const Search = ({ onSearchChange }) => {
     const geOptions = {
       method: 'GET',
       url: 'https://wft-geo-db.p.rapidapi.com/v1/geo/cities',
-      params: { minPopulation: '1000000', namePrefix: `${inputValue}` },
+      params: { minPopulation: '100000', namePrefix: `${inputValue}` },
       headers: {
         'X-RapidAPI-Key': 'bd2331da35msh74c2f770d6f9e00p1c8acajsn5e328e3a02f9',
         'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
